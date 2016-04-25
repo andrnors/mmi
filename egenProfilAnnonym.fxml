@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
@@ -48,6 +49,11 @@
                   <Label layoutX="309.0" layoutY="502.0" minHeight="40.0" minWidth="100.0" text="28569" />
                   <Label layoutX="309.0" layoutY="538.0" minHeight="40.0" minWidth="100.0" text="10 av 43" />
                   <Label layoutX="309.0" layoutY="578.0" minHeight="40.0" minWidth="100.0" text="8400 av 20000" />
+                  <ImageView fitHeight="46.0" fitWidth="65.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@menyknapp.png" />
+                     </image>
+                  </ImageView>
                </children></AnchorPane>
       </content>
     </Tab>

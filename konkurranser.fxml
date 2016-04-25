@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.Tab?>
@@ -10,7 +15,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Text?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="683.0" prefWidth="441.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="683.0" prefWidth="441.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
   <tabs>
     <Tab text="Daglig aktivitet">
       <content>
@@ -34,30 +39,35 @@
                      <children>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0">
                            <children>
-                              <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
-                              <Text layoutX="24.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
-                              <Text layoutX="24.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
+                              <Text layoutX="66.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
+                              <Text layoutX="76.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
+                              <Text layoutX="76.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
                               <Separator layoutX="-14.0" layoutY="104.0" prefHeight="1.0" prefWidth="441.0" />
                               <Separator layoutX="-4.0" layoutY="104.0" prefHeight="0.0" prefWidth="441.0" />
                               <Button layoutX="317.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Meld av" />
+                              <ImageView fitHeight="46.0" fitWidth="65.0" layoutX="-16.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@menyknapp.png" />
+                                 </image>
+                              </ImageView>
                            </children>
                         </AnchorPane>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                            <children>
-                              <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
-                              <Text layoutX="22.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
-                              <Text layoutX="22.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
+                              <Text layoutX="68.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
+                              <Text layoutX="76.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
+                              <Text layoutX="76.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
                               <Button layoutX="316.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Meld på" />
                            </children>
                         </AnchorPane>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                            <children>
-                              <Text layoutX="14.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
-                              <Text layoutX="20.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Mer utdypet info om konkurransen. " />
-                              <Text layoutX="51.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dato - dato" />
-                              <Text layoutX="48.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start - slutt" />
-                              <Text layoutX="48.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firma" />
-                              <Text layoutX="49.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ferdighetsnivå**" />
+                              <Text layoutX="59.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
+                              <Text layoutX="65.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Mer utdypet info om konkurransen. " />
+                              <Text layoutX="96.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dato - dato" />
+                              <Text layoutX="93.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start - slutt" />
+                              <Text layoutX="93.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firma" />
+                              <Text layoutX="94.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ferdighetsnivå**" />
                               <Separator layoutX="-24.0" layoutY="-1.0" prefHeight="3.0" prefWidth="452.0" />
                               <Separator layoutX="-29.0" layoutY="324.0" prefHeight="4.0" prefWidth="460.0" />
                               <Button layoutX="315.0" layoutY="131.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Meld på" />
@@ -65,9 +75,9 @@
                         </AnchorPane>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                            <children>
-                              <Text layoutX="6.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
-                              <Text layoutX="14.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
-                              <Text layoutX="14.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
+                              <Text layoutX="61.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konkurransenavn" />
+                              <Text layoutX="69.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
+                              <Text layoutX="69.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Litt info" />
                               <Button layoutX="313.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Meld på" />
                            </children>
                         </AnchorPane>
