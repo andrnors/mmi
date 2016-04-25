@@ -55,7 +55,6 @@
                               <Label layoutX="16.0" layoutY="205.0" text="Ole Einar Stordalen" />
                               <Label layoutX="16.0" layoutY="75.0" text="Kari Olsen" />
                               <Label layoutX="16.0" layoutY="27.0" text="Ola Nordmann" />
-                              <TextField layoutX="20.0" layoutY="387.0" promptText="Søk" />
                            </children>
                         </AnchorPane>
                     </items>
