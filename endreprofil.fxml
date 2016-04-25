@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="370.0" prefHeight="428.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="35.0" layoutY="14.0" prefHeight="45.0" prefWidth="166.0" text="Endre profil">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="59.0" prefHeight="35.0" prefWidth="129.0" text="Endre navn" />
+      <Label layoutX="35.0" layoutY="139.0" prefHeight="35.0" prefWidth="129.0" text="Endre brukernavn" />
+      <Label layoutX="35.0" layoutY="214.0" prefHeight="35.0" prefWidth="158.0" text="Endre telefonnummer" />
+      <Label layoutX="35.0" layoutY="293.0" prefHeight="35.0" prefWidth="129.0" text="Endre epost" />
+      <TextField layoutX="35.0" layoutY="94.0" promptText="Skriv inn nytt navn" />
+      <TextField layoutX="35.0" layoutY="174.0" promptText="Skriv inn nytt brukernavn" />
+      <TextField layoutX="35.0" layoutY="249.0" promptText="Skriv inn nytt nummer" />
+      <TextField layoutX="35.0" layoutY="328.0" promptText="Skriv inn ny epost" />
+      <Button layoutX="285.0" layoutY="376.0" mnemonicParsing="false" style="-fx-background-color: green; -fx-border-color: bla;" text="Bekreft" />
+      <Button layoutX="201.0" layoutY="376.0" mnemonicParsing="false" style="-fx-background-color: red; border-rad: 3;" text="Avbryt" />
+   </children>
+</Pane>
