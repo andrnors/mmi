@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
@@ -46,6 +47,11 @@
                   <Label layoutX="309.0" layoutY="538.0" minHeight="40.0" minWidth="100.0" text="10 av 43" />
                   <Label layoutX="309.0" layoutY="578.0" minHeight="40.0" minWidth="100.0" text="8400 av 20000" />
                   <Button layoutX="259.0" layoutY="107.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="161.0" style="-fx-background-color: red; -fx-border-color: black;" text="Fjern venn" />
+                  <ImageView fitHeight="46.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@menyknapp.png" />
+                     </image>
+                  </ImageView>
                </children></AnchorPane>
       </content>
     </Tab>
