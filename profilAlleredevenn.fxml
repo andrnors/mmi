@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="683.0" prefWidth="441.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Daglig aktivitet">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+      <Tab text="  Konkurranser  ">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+    <Tab text="Profil       ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="533.0" prefWidth="600.0">
+               <children>
+                  <Label layoutX="44.0" layoutY="52.0" prefHeight="53.0" prefWidth="201.0" text="Ola Nordmann">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="47.0" layoutY="112.0" prefHeight="21.0" prefWidth="104.0" text="Brukernavn" />
+                  <Label layoutX="47.0" layoutY="141.0" prefHeight="21.0" prefWidth="125.0" text="ola.nord94" />
+                  <Label layoutX="47.0" layoutY="186.0" prefHeight="21.0" prefWidth="89.0" text="Email" />
+                  <Label layoutX="47.0" layoutY="218.0" text="ola.nordmann@mail.com" />
+                  <Label layoutX="47.0" layoutY="270.0" prefHeight="21.0" prefWidth="124.0" text="Telefon" />
+                  <Label layoutX="44.0" layoutY="301.0" text="+47 74108525" />
+                  <Separator layoutX="-5.0" layoutY="428.0" prefHeight="5.0" prefWidth="450.0" style="-fx-border-color: black;" />
+                  <Label layoutX="118.0" layoutY="441.0" prefHeight="21.0" prefWidth="193.0" style="-fx-alignment: center;" text="BEMERKELSER" />
+                  <Label layoutX="36.0" layoutY="462.0" minHeight="40.0" minWidth="200.0" prefHeight="21.0" prefWidth="89.0" text="Milepæler" />
+                  <Label layoutX="36.0" layoutY="502.0" minHeight="40.0" minWidth="200.0" text="Skritt gått" />
+                  <Label layoutX="36.0" layoutY="538.0" minHeight="40.0" minWidth="200.0" text="Plassering blant venner" />
+                  <Label layoutX="36.0" layoutY="578.0" minHeight="40.0" minWidth="200.0" text="Plassering globalt" />
+                  <Label layoutX="309.0" layoutY="472.0" minHeight="40.0" minWidth="100.0" text="4" />
+                  <Label layoutX="309.0" layoutY="502.0" minHeight="40.0" minWidth="100.0" text="28569" />
+                  <Label layoutX="309.0" layoutY="538.0" minHeight="40.0" minWidth="100.0" text="10 av 43" />
+                  <Label layoutX="309.0" layoutY="578.0" minHeight="40.0" minWidth="100.0" text="8400 av 20000" />
+                  <Button layoutX="259.0" layoutY="107.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="161.0" style="-fx-background-color: red; -fx-border-color: black;" text="Fjern venn" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
