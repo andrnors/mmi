@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="428.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="26.0" layoutY="27.0" prefHeight="42.0" prefWidth="262.0" text="Gjennopprett passord">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="119.0" prefHeight="42.0" prefWidth="179.0" text="Epost">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="35.0" layoutY="161.0" text="Skriv inn din epost" />
+      <Button layoutX="57.0" layoutY="301.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="87.0" style="-fx-background-color: red;" text="Avbryt" />
+      <Button layoutX="189.0" layoutY="301.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="87.0" style="-fx-background-color: green; -fx-border-radius: 3;" text="Send" />
+   </children>
+</Pane>
