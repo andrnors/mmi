@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="683.0" prefWidth="441.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+      <Tab text="Nedtrekk">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+    <Tab text="Daglig aktivitet ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="648.0" prefWidth="441.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <Label layoutX="147.0" layoutY="101.0" text="skritt i dag">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="73.0" layoutY="196.0" text="kcal">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="315.0" layoutY="196.0" text="km">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="174.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="287">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="303.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.24">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="72.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="392.0" layoutY="14.0" mnemonicParsing="false" text="Inst" />
+                              <Button layoutX="397.0" layoutY="65.0" mnemonicParsing="false" text="+" textFill="#1cf508">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Line endX="44.0" layoutX="115.0" layoutY="1.0" startX="-50.0" stroke="#00ff09" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="336.0" prefWidth="439.0">
+                           <children>
+                              <Label layoutX="133.0" layoutY="14.0" text="Hvor har du gått?">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="227.0" fitWidth="368.0" layoutX="42.0" layoutY="66.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@eksempelbilde.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="  Konkurranser  ">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+    <Tab text="       Profil       ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="533.0" prefWidth="600.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
