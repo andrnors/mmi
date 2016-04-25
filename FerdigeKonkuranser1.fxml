@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="683.0" prefWidth="441.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Daglig aktivitet">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+      <Tab text="  Konkurranser  ">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ComboBox layoutX="277.0" layoutY="14.0" prefWidth="150.0" promptText="Sort by" />
+                  <VBox layoutY="39.0" prefHeight="615.0" prefWidth="441.0">
+                     <children>
+                        <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="6.0" text="Konkuranse #1">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="35.0" layoutY="27.0" text="-2. plass" />
+                                    <Label layoutX="35.0" layoutY="48.0" text="-Kvalifiserings løp for konkuranse #5" />
+                                    <Label layoutX="372.0" layoutY="33.0" text="✓" textFill="#15ff00">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <Label layoutX="13.0" layoutY="5.0" text="Konkuranse #2">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="38.0" layoutY="26.0" text="-1. plass" />
+                                    <Label layoutX="38.0" layoutY="48.0" text="-Congratulations" />
+                                    <Label layoutX="372.0" layoutY="33.0" text="✓" textFill="#15ff00">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                        <SplitPane orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="4.0" text="Konkuranse #3">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="38.0" layoutY="44.0" text="-6. plass" />
+                                    <Label layoutX="38.0" layoutY="72.0" text="-20.000 skritt" />
+                                    <Label layoutX="38.0" layoutY="99.0" text="-Orienteringsløp" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="157.0" layoutX="166.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="188.0" />
+                                    <Label layoutX="247.0" layoutY="91.0" text="MAP" />
+                                    <Label layoutX="372.0" layoutY="80.0" text="✓" textFill="#15ff00">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                        <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="129.0" prefWidth="462.0">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="4.0" text="Konkuranse #4">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="39.0" layoutY="31.0" text="-DNF" />
+                                    <Label layoutX="40.0" layoutY="54.0" text="-Canceled due to snowstorm" />
+                                    <Label layoutX="372.0" layoutY="33.0" text="X" textFill="RED">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="124.0" prefWidth="439.0">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="14.0" text="Konkuranse #5">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="39.0" layoutY="40.0" text="-1. plass" />
+                                    <Label layoutX="39.0" layoutY="65.0" text="-Kvalifisert fra konkuranse #1" />
+                                    <Label layoutX="372.0" layoutY="33.0" text="✓" textFill="#15ff00">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+         </content>
+      </Tab>
+    <Tab text="       Profil       ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="533.0" prefWidth="600.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
